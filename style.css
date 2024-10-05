@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700
+}
+button {
+    color: black;
+}
+body {
+    background-color: black;
+}
+#video {
+    background-color: black;
+    height: 89vh;
+    width: 100vw;
+}
+
+#rickroll {
+    height: 10vh;
+    width: 100vw;
+    font-size: 4vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    background-image: url(noob.png);
+    background-size: contain;
+}
+#beginFather {
+    height: 30vh;
+    width: 100vw;
+}
+#beginHeading {
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 2.5vh;
+}
+#beginImage {
+    height: 20vh;
+    width: 100vw;
+}
+#begin {
+    height: 5vh;
+    width: 100vw;
+}
+#Q {
+    height: 10vh;
+    width: 100vw;
+    font-size: 3vh;
+    text-align: center;
+}
+.buttons {
+    height: 6vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option {
+    height: 4vh;
+    width: 30vw;
+    background-color: grey;
+    color: white;
+    border: 0;
+    transition: background-color 0.2s;
+}
+.option:active {
+    background-color: brown;
+}
